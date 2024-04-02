@@ -1,0 +1,449 @@
+
+.HomeImg{
+    height: 100%;
+    width: 100%;
+}
+.Partition{
+    display: flex;
+    
+}
+.Logo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    color: white;
+    font-size:  30px;
+    margin-top: -66%;
+    margin-left: 1%;
+    justify-content: center;
+}
+.Options{
+    display: flex;
+    font-family: Oswald, sans-serif;
+    color: white;
+    font-size:  30px;
+    margin-top: -66%;
+    margin-left: 800px;
+    padding-left: 50px;
+    justify-content: center;
+}
+.Opt{
+    margin-left: 15px;
+    text-decoration: none;
+}
+.Home-Text{
+    color: white;
+    font-size: 50px;
+    font-family: "Oswald", sans-serif;
+    margin-top: -650px;
+    margin-left: 100px;
+}
+.Home-Text-One{
+   color: white;
+   font-weight: bolder;
+   font-size: 90px;
+   font-family: "Oswald", sans-serif;
+   margin-top: -25px;
+   margin-left: 100px;
+
+}
+.HomeButton{
+    font-family: "Oswald", sans-serif;
+    padding: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    letter-spacing: 2px;
+    color: rgb(250, 208, 0);
+    margin-left: 100px;
+    background-color: transparent;
+    border:  3px solid rgb(255, 213, 0) ;
+    font-size: 20px;
+}
+.Navigation-Bar{
+    
+}
+.Home-Page-Quote{
+    font-size: 45px;
+    font-weight: 500;
+    color: rgb(124, 115, 255);
+    font-family: "Oswald", sans-serif;
+    margin-top: 500px;
+    text-align: center;
+
+}
+.Highlighted{
+    color: rgb(255, 204, 0);
+    margin-top: 500px;
+    text-align: center;
+    margin-left: 10px;
+
+}
+.Home-Page-Quote-Two{
+    color: rgb(60, 60, 60);
+    text-align: center;
+    font-weight: 350;
+    margin-top: 50px;
+    font-size: 35px;
+    font-family: "Fira Sans", sans-serif;
+}
+.Parent-Review{
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    width: 80%;
+    height: 600px;
+    margin-right: 100px;
+    margin-left: 150px;
+    align-items: center;
+}
+.Parent-Img{
+    width: 40%;
+    height: 600px;
+}
+.Parent-Text-Review{
+    height: 400px;
+    margin: 35px;
+    width: 60%;
+    font-size: 30px;
+    font-family: "Fira Sans", sans-serif;
+}
+.InnerText{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Story-Button{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    color: rgb(255, 217, 0);
+    border-radius: 3px;
+    border-width: 3px;
+    border-color:  rgb(255, 217, 0);
+    background-color: transparent;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding: 10px;
+    border-style: solid;
+}
+
+.OurFocus{ 
+    display: flex;
+    
+    width: 80%;
+    height: 700px;
+    margin-top: 50px; 
+    margin-left: 150px;
+}
+.Option1 {
+    height: 700px;
+    width: 100%;
+    background-image: url(Images/1.jpg);
+}
+
+.Option1:hover{
+    filter: brightness(50%);
+    transition: filter 0.1s ease-in-out;
+}
+.Option-One-Text{
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    font-family: "Oswald", sans-serif;
+    text-decoration: none;
+    margin-left: 50px;
+    margin-top: 100%;
+    
+    
+}
+.Option2{
+    height: 700px;
+    width: 100%;
+    background-image: url(Images/2.jpg);
+}
+.Option2:hover{
+    
+    filter: brightness(50%);
+    transition: filter 0.1s ease-in-out;
+}
+.Option3{
+    height: 700px;
+    width: 100%;
+    background-image: url(Images/3.jpg);
+}
+.Option3:hover{
+    filter: brightness(50%);
+    transition: filter 0.1s ease-in-out;
+}
+.Option4{
+    height: 700px;
+    width: 100%;
+    background-image: url(Images/4.jpeg);
+}
+.Option4:hover{
+    filter: brightness(50%);
+    transition: filter 0.1s ease-in-out;
+}
+.Option5{
+    height: 700px;
+    width: 100%;
+    background-image: url(Images/5.jpg);
+}
+.Option5:hover{
+    filter: brightness(50%);
+    transition: filter 0.1s ease-in-out;
+}
+.Option6{
+    height: 700px;
+    width: 100%;
+    background-image: url(Images/6.jpg);
+}
+.Option6:hover{
+    filter: brightness(50%);
+    transition: filter 0.1s ease-in-out;
+}
+.OurFeatures1{
+    
+    margin-top: 60px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+    background-color: #174063;
+    
+}
+
+.FeatureOne{
+    
+    height: 400px;
+    width: 22%;
+    margin: 20px;
+    background-color: #225081;
+    border: 2px solid #2b89db;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 600;
+    
+}
+
+.FeatureTwo{
+    
+    height: 400px;
+    width: 22%;
+    margin: 20px;
+    background-color: #225081;
+    border: 2px solid #2b89db;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 600;
+
+}
+.FeatureThree{
+    height: 400px;
+    width: 22%;
+    margin: 20px;
+    background-color: #225081;
+    border: 2px solid #2b89db;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 600;
+}
+.FeatureFour{
+    height: 400px;
+    width: 22%;
+    margin: 20px;
+    background-color: #225081;
+    border: 2px solid #2b89db;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 600;
+}
+.Img1{
+    height: 250px;
+    width: 100%; 
+}
+.Img2{
+    height: 250px;
+    width: 100%; 
+}
+.Img3{
+    height: 250px;
+    width: 100%; 
+}
+.Img4{
+    height: 250px;
+    width: 100%; 
+}
+.btn1{
+    margin-top: 6px;
+    font-family: "Oswald", sans-serif;
+    font-size: 23px;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: #ffae00;
+    background-color: transparent;
+    border: transparent;
+    text-decoration: underline;
+    
+}
+
+.Video{
+    height: 350px;
+    width: 500px;
+    background-color: #153a5b;
+    margin-left: 900px;
+    margin-top: 170px;
+}
+
+.DonationBoxImage{
+    margin-top: 100px;
+    height: 800px;
+    width: 100%;
+    background-image: url(Images/17.jpg);
+}
+.DonationBox{
+    height: 400px;
+    width: 500px;
+    background-color: #153a5b;
+    margin-top: -700px;
+    margin-left: 170px;
+   text-align: center;
+   padding-top: 40px;
+   padding-left: 40px;
+   padding-right: 40px;
+    font-weight: 400;
+    font-size: 38px;
+    color: rgb(85, 165, 255);
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    
+    
+
+}
+.SmallTxt{
+    width: 450px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    color: white;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 300;
+    text-align: center;
+
+
+}
+.DonateBtn{
+    margin-top: 6px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 23px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(85, 165, 255);;
+    border: transparent;
+    text-decoration: dotted;
+}
+.WhyNeedUs-B{
+    display: flex;
+    margin-top: 300px;
+    background-color: white;
+
+}
+.Video-B{
+    margin-top: 250px;
+    height: 300px;
+    width: 600px;
+    background-color: #153a5b;
+    margin-left: 20px;
+}
+.Text-B{
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 1100px;
+    width: 800px;
+    background-color: #d1e7ff;
+    border-radius: 20px;
+
+}
+.Headline-1{
+    margin-left: 30px;
+    font-size: 30px;
+    font-family: "Fira Sans", sans-serif;
+    text-align: center;
+}
+.Headline-2{
+    margin-left: 30px;
+    font-size: 30px;
+    font-family: "Fira Sans", sans-serif;
+    text-align: center;
+}
+.Headline-3{
+    margin-left: 30px;
+    font-size: 30px;
+    font-family: "Fira Sans", sans-serif;
+    text-align: center;
+}
+.Headline-4{
+    margin-left: 30px;
+    font-size: 30px;
+    font-family: "Fira Sans", sans-serif;
+    text-align: center;
+}
+.Headline-5{
+    margin-left: 30px;
+    font-size: 30px;
+    font-family: "Fira Sans", sans-serif;
+    text-align: center;
+}
+.Paragraph-1{
+    font-size: 20px;
+    width: 700px;
+    text-align: center;
+    margin-left: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.Paragraph-2{
+    font-size: 20px;
+    width: 700px;
+    text-align: center;
+    margin-left: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.Paragraph-3{
+    font-size: 20px;
+    width: 700px;
+    text-align: center;
+    margin-left: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.Paragraph-4{
+    font-size: 20px;
+    width: 700px;
+    text-align: center;
+    margin-left: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.Paragraph-5{
+    font-size: 20px;
+    width: 700px;
+    text-align: center;
+    margin-left: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
